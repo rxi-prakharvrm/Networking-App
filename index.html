@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Networking-All concepts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <a href="#" class="logo-ctr"><h1 class="logo">PV</h1></a>
+        <div class="header-btn-ctr">
+            <button class="btn header-btn intro-btn">INTRODUCTION</button>            
+            <div class="black-overlay">
+                <div class="intro-page">
+                    <i class="fa fa-close fa-lg"></i>
+                    <img class="mypic" src="res/images/mypic.jpg" alt="Prakhar Verma's Profile Picture">
+                    <h1 class="name">Prakhar Verma</h1><hr>
+                    <h3 class="occupation">A BCA student and learning full stack web development since march 2020.</h3>
+                    <p class="myintro">
+                        Hi, My name is <b>Prakhar Verma</b>. I am a BCA 2nd year student. I am from Mainpuri, Uttar Pradesh. As you know, I am a fresher and I don't have much experience in any tech industry so I have not much practical knowledge but I have deep theoretical knowledge of my subjects.<br><br>
+                        
+                        I utilized my time in this pendamic by learning various technical skills like <b>full stack web development, graphics designing, logo making</b> etc. I've also taken some udemy courses, one of them is "The complete web development bootcamp 2020 by Angela Yu". This is my favourite course I've taken from any online platform so far. I love doing programming and creating the applications that help people by saving their time and efforts.<br><br>
+
+                        I believe that I have all the skills which your company requires. And if I will be a part of your organization I will make sure that I will do my best and achieve every target.
+                    </p>
+                </div>
+            </div>            
+            <button class="btn header-btn topics-btn">TOPICS <i class="fa fa-angle-down"></i>
+                <div class="topics-dropdown-menu">
+                    <a href="#networking-start" class="btn topics networking">Networking</a>
+                    <a href="#topologies-start" class="btn topics topologies">Topologies</a>
+                    <a href="#networking-cables-start" class="btn topics cables">Networking Cables</a>
+                    <a href="#osi-model-start" class="btn topics osi-mode">OSI Model</a>
+                    <a href="#types-of-networks-start" class="btn topics types-of-network">LAN, MAN, WAN</a>
+                    <a href="#ip-address-start" class="btn topics ip-address">IP Address</a>
+                    <a href="#mac-address-start" class="btn topics mac-address">MAC Address</a>
+                    <a href="#nic-start" class="btn topics nic">Network Interface Card</a>
+                </div>
+            </button> 
+            <a href="#feedback-ctr-start" class="btn header-btn feedback-btn">FEEDBACK</a>                   
+        </div>
+    </div>
+
+    <div class="main-ctr">
+        <hr id="networking-start">
+        <div class="topic-ctr">
+            <h1 class="topc">What is Networking?</h1>
+            <div class="topic-img-ctr networking-img"></div>
+            <p>Networking is the practice or system of meeting or talking to other people. Networking is the study of the methods that are used to create a network in which data can be transferred from one node to another either wired or wirelessly. Networking is a vast field to learn.</p>
+        </div>
+        <hr id="topologies-start">
+        <div class="topic-ctr">
+            <h1 class="topc">Topologies</h1>
+            <div class="topic-img-ctr topologies-img"></div>
+            <p>Topology is a structure in which the network is formed. Network speed and efficiency can vary according to the topology. There are different types of topologies. Some of them are explained below:</p>
+            <ul>
+                <li>Bus Topology</li>
+                <li>Star Topology</li>
+                <li>Ring Topology</li>
+                <li>Tree Topology</li>
+                <li>Mess Topology</li>
+                <li>Hybrid Topology</li>
+            </ul>
+            
+            <div class="sub-heading-ctr">
+                <h2>Bus Topology</h2>            
+                <div class="sub-topic-img-ctr bus-topology-img"></div>
+                <p>Bus Topology is a simple and specific kind of network topology in which all the nodes are connected to each other through a backbone cable to transfer data.</p>
+            </div>
+            
+            <div class="sub-heading-ctr">
+                <h2>Star Topology</h2>            
+                <div class="sub-topic-img-ctr star-topology-img"></div>
+                <p>In Star Topology, all the devices/nodes are connected to a central node e.g., switch. Here, if one or more nodes get damaged, the network will be the same as it was before.</p>
+            </div>
+            
+            <div class="sub-heading-ctr">
+                <h2>Ring Topology</h2>            
+                <div class="sub-topic-img-ctr ring-topology-img"></div>
+                <p>Ring Topology is collision free topology in which one node is connected to its two contiguous nodes. If a single node gets damaged, whole network will go down.</p>
+            </div>
+            
+            <div class="sub-heading-ctr">
+                <h2>Tree Topology</h2>            
+                <div class="sub-topic-img-ctr tree-topology-img"></div>
+                <p>Tree Topology is a topology in which all the nodes are connected in a tree type structure. This structure contains a main 0 level node, if that's get damaged, whole network will go down.</p>
+            </div>
+            
+            <div class="sub-heading-ctr">
+                <h2>Mess Topology</h2>            
+                <div class="sub-topic-img-ctr mess-topology-img"></div>
+                <p>Mess Topology is the most reliable and expensive topology out there. In Mess Topology, all of the nodes/devices are connected to each other in order to transmit data. If one or more nodes get damaged, network will not be affected instead it will be same as before.</p>
+            </div>
+            
+            <div class="sub-heading-ctr">
+                <h2>Hybrid Topology</h2>            
+                <div class="sub-topic-img-ctr hybrid-topology-img"></div>
+                <p>Hybrid Topology is a combination of more than one topologies that we discussed above. It is made by combining more than one type of topology e.g., bus, star, tree etc.</p>
+            </div>
+
+        </div>
+        <hr id="networking-cables-start">
+        <div class="topic-ctr">
+            <h1 class="topc">Networking Cables</h1>
+            <div class="topic-img-ctr networking-cables-img"></div>
+            <p>When we talk about physical networking, networking cables perform a fundamental role. Networking cables comes in various varients but the three most popular networking cables are explained below:</p>
+            <ul>
+                <li>Coaxial Cable</li>
+                <li>Twisted pair Cable</li>
+                <li>Optical Fibre Cable</li>
+            </ul>
+            
+            <div class="sub-heading-ctr">
+                <h2>Coaxial Cable</h2>            
+                <div class="sub-topic-img-ctr coaxial-cable-img"></div>
+                <p>Coaxial cable is a cheap cable among other networking cables. It has a copper wire in the middle that is responsible for transmitting data from one device to another. An aluminium layer is present above the core copper wire that protects the cable from collision of data.</p>
+            </div>
+            
+            <div class="sub-heading-ctr">
+                <h2>Twisted Pair Cable</h2>            
+                <div class="sub-topic-img-ctr twisted-pair-cable-img"></div>
+                <p>A twisted pair cable comprises of two separate insulated copper wires, which are twisted together and run in parallel. The copper wires are typically 1mm in diameter. One of the wires is used to transmit data and the other is the ground reference.</p>
+            </div>
+            
+            <div class="sub-heading-ctr">
+                <h2>Optical Fibre Cable</h2>            
+                <div class="sub-topic-img-ctr optical-fibre-cable-img"></div>
+                <p>A fiber-optic cable, also known as an optical-fiber cable, is an expensive cable that is used for heigher bandwidth. Optical Fibre Cables use light reflection technology to transmit data from one place to another. The optical fiber elements are typically individually coated with plastic layers and contained in a protective tube suitable for the environment where the cable is used.</p>
+            </div>
+        </div>
+        <hr id="osi-model-start">
+        <div class="topic-ctr">
+            <h1 class="topc">OSI Model</h1>
+            <div class="topic-img-ctr osi-model-img"></div>
+            <p>OSI Model stands for Open Systems Interconnection Model. It is developed by ISO (International Organization of Standardization). It is a conceptual networking model that is used to describe the functions of the networking system. It consists of 7 layers:</p>
+            <ol reversed>
+                <li>Application Layer</li>
+                <li>Presentation Layer</li>
+                <li>Session Layer</li>
+                <li>Transport layer</li>
+                <li>Network Layer</li>
+                <li>Data Link Layer</li>
+                <li>Physical Layer</li>
+            </ol>            
+            <div class="sub-heading-ctr">
+                <h2>1. Plysical Layer</h2>
+                <p>It is the lowest layer in OSI model. It is responsible for all the physical transmissions. It transmits data across the network. Hub, repeaters, cabling are physical layer devices.</p>
+            </div>           
+            <div class="sub-heading-ctr">
+                <h2>2. Data Link Layer</h2>
+                <p>Data link layer is responsible for node-to-node data transfer. It transmits data in frames. The data link layer also corrects errors that may have occurred at the physical layer. Data link layer comprises of two sub-layers:</p>
+                <ul>
+                    <li>MAC (Media Access Control)</li>
+                    <li>LLC (Logical Link Control)</li>
+                </ul>
+            </div>           
+            <div class="sub-heading-ctr">
+                <h2>3. Network Layer</h2>
+                <p>The network layer is responsible for receiving frames from the data link layer, and delivering them to their intended destinations based on the addresses contained inside the frame. Network layer uses IP address to find the data destination.</p>
+            </div>           
+            <div class="sub-heading-ctr">
+                <h2>4. Transport Layer</h2>
+                <p>The transport layer manages the delivery and error checking of data packets. It regulates the size, sequencing, and ultimately the transfer of data between systems and hosts. One of the most common examples of the transport layer is TCP or the Transmission Control Protocol.</p>
+            </div>           
+            <div class="sub-heading-ctr">
+                <h2>5. Session Layer</h2>
+                <p>The session layer controls the conversations between different computers. A session or connection between machines is set up, managed, and termined at layer 5. Session layer services also include authentication and reconnections.</p>
+            </div>           
+            <div class="sub-heading-ctr">
+                <h2>6. Presentation Layer</h2>
+                <p>The presentation layer formats or translates data for the application layer based on the syntax or semantics that the application accepts. Because of this, it at times also called the syntax layer. This layer can also handle the encryption and decryption required by the application layer.</p>
+            </div>           
+            <div class="sub-heading-ctr">
+                <h2>7. Application Layer</h2>
+                <p>At this layer, both the end user and the application layer interact directly with the software application. The application layer identifies communication partners, resource availability, and synchronizes communication.</p>
+            </div>
+        </div>
+        <hr id="types-of-networks-start">
+        <div class="topic-ctr">
+            <h1 class="topc">LAN, MAN and WAN</h1>
+            <div class="topic-img-ctr types-of-networks-img"></div>
+            <p></p>
+            <div class="sub-heading-ctr">
+                <h2>LAN (Local Area Network)</h2>
+                <p>LAN stands for Local Area Network. It is a network that covers less geographical area in comparision to MAN and WAN. LAN is used for home networks, office networks etc. It can be wired or wireless.</p>
+            </div>
+            <div class="sub-heading-ctr">
+                <h2>MAN (Matropolitan Area Network)</h2>
+                <p>A MAN stands for Matropolitan Area Network, is a larger network that usually spans several buildings in the same city or town. It is also used to establish network across the cities.</p>
+            </div>
+            <div class="sub-heading-ctr">
+                <h2>WAN (Wide Area Network)</h2>
+                <p>A WAN stands for Wide Area Network, in comparison to a MAN, is not restricted to a geographical location, although it might be confined within the bounds of a state or country. A WAN connects several LANs, and may be limited to an enterprise (a corporation or an organization) or accessible to the public. The technology is high speed and relatively expensive. The Internet is an example of a WAN.</p>
+            </div>
+        </div>
+        <hr id="ip-address-start">
+        <div class="topic-ctr">
+            <h1 class="topc">IP Address</h1>
+            <div class="topic-img-ctr ip-address-img"></div>
+            <p>An Internet Protocol address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.</p>
+        </div>
+        <hr id="mac-address-start">
+        <div class="topic-ctr">
+            <h1 class="topc">MAC Address</h1>
+            <div class="topic-img-ctr mac-address-img"></div>
+            <p>A media access control address is a unique identifier assigned to a network interface controller or a network device for use as a network address in communications within a network segment.</p>
+        </div>
+        <hr id="nic-start">
+        <div class="topic-ctr">
+            <h1 class="topic">Network Interface Card (NIC)</h1>
+            <div class="topic-img-ctr nic-img"></div>
+            <p>NIC is an acronym for Network interface controller or Network Interface Card, but it can also be known as a network adapter or LAN network. It is a piece of computer hardware, used for connecting a computer to a network, either through cables or wirelessly. A laptop with both wired and wireless connections, contains two MAC addresses.</p>
+        </div>
+
+        <!-- Feedback Form -->
+        <hr id="feedback-ctr-start">
+        <div class="feedback-ctr">
+            <form action="/" method="POST">
+                <h1 class="feedback-header">Feedback my work!</h1>
+                <p class="feedback-subheader">Please give your honest feedback. It is very crucial for me!</p>
+                <a class="feedback-submit-btn" href="mailto:prakharverma1022@gmail.com?subject='PV.com' Honest Feedback!">Send email</a>
+            </form>
+        </div>        
+    </div>
+    
+    <!-- Footer section  -->
+    <div class="footer">
+        <div class="footer-info-ctr">
+            <h2 class="footer-heading">Prakhar Verma</h2>
+            <p class="footer-subheading">This is a website I've created as a presentation project!</p>
+            <div class="footer-social-media">
+                <a href="https://www.instagram.com/rxi_prakharvrm/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
+                <a href="https://www.facebook.com/prakhar.verma.14661" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+                <a href="https://web.telegram.org/k/" target="_blank"><i class="fa fa-telegram fa-lg"></i></a>
+            </div>
+        </div>
+        <div class="footer-btn-ctr">
+            <a href="#networking-start" class="btn footer-btn topics networking">Networking</a>
+            <a href="#topologies-start" class="btn footer-btn topics topologies">Topologies</a>
+            <a href="#networking-cables-start" class="btn footer-btn topics cables">Networking Cables</a>
+            <a href="#osi-model-start" class="btn footer-btn topics osi-mode">OSI Model</a>
+            <a href="#types-of-networks-start" class="btn footer-btn topics types-of-network">LAN, MAN, WAN</a>
+            <a href="#ip-address-start" class="btn footer-btn topics ip-address">IP Address</a>
+            <a href="#mac-address-start" class="btn footer-btn topics mac-address">MAC Address</a>
+            <a href="#nic-start" class="btn footer-btn topics nic">Network Interface Card</a>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
